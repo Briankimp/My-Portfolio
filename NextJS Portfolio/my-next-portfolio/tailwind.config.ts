@@ -25,10 +25,10 @@ const config: Config = {
         primary: 'var(--font-jetbrainsMono)',
       },
       colors: {
-            primary: "#1c1c22",
+            primary: "#1c1c22", /*Black*/
             accent: {
-              DEFAULT: "#00ff99",
-              hover: "#00e187"
+              DEFAULT: "#00ff99", /*greenish for buttons*/
+              hover: "#00e187"  /*greenish for hover buttons*/
             }
       }
       // colors: {
