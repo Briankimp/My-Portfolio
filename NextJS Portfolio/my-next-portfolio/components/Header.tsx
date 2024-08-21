@@ -14,15 +14,17 @@ const Header = () => {
         </Link>
 
         {/* Desktop nav and hire me button */}
-        <div className=" md:flex items-center gap-8">
-            <Nav />
-            <Link href="/contact">
-                <Button className="bg-accent rounded-2xl hover:bg-accent-hover ">Hire Me</Button>
-            </Link>
+        <div className="sm:hidden  md:flex items-center gap-8">
+          <Nav />
+          <Link href="/contact">
+            <Button className="bg-accent rounded-2xl hover:bg-accent-hover">
+              Hire Me
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile nav */}
-        <div className="md: hidden">mobile nav</div>
+        <div className="xl:hidden md:flex ">mobile nav</div>
       </div>
     </header>
   );

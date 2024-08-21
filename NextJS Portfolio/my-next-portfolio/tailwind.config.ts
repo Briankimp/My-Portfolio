@@ -20,6 +20,7 @@ const config: Config = {
         lg: '960px',
         md: '768px',
         sm: '640px',
+        xm: '500px',
       },
       fontFamily: {
         primary: 'var(--font-jetbrainsMono)',

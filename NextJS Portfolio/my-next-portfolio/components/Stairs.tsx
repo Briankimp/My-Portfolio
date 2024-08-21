@@ -1,8 +1,11 @@
-import React from "react";
-import { animate, motion } from "framer-motion";
+import { animate,motion } from "framer-motion";
 import { exit } from "process";
+import React from "react";
+// import { animate, motion } from "framer-motion";
+// import { exit } from "process";
 
-const stairAnimation = {
+
+const StairAnimation = {
   initial: {
     top: "0%",
   },
@@ -11,8 +14,20 @@ const stairAnimation = {
   },
   exit: {
     top: ["100%", "0%"],
-  },
-};
+  }
+}
+
+// const stairAnimation = {
+//   initial: {
+//     top: "0%",
+//   },
+//   animate: {
+//     top: "100%",
+//   },
+//   exit: {
+//     top: ["100%", "0%"],
+//   },
+// };
 
 const reverseIndex = (index: number): number => {
   const totalSteps = 6;
@@ -27,12 +42,12 @@ const Stairs: React.FC = () => {
         return (
           <motion.div
             key={index}
-            variants={stairAnimation}
+            variants={StairAnimation}
             initial="initial"
             animate="animate"
             exit="exit"
             transition={{
-              duration: 0.4,
+              duration: 0.01,
               ease: "easeInOut",
               delay: reverseIndex(index) * 0.1,
             }}
