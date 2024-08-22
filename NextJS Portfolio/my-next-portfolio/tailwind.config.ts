@@ -15,13 +15,13 @@ const config: Config = {
       padding: '15px',
     },
     extend: {
-      screens: {
-        xl: '1200px',
-        lg: '960px',
-        md: '768px',
-        sm: '640px',
-        xm: '500px',
-      },
+      // screens: {
+      //   xl: '1200px',
+      //   lg: '960px',
+      //   md: '768px',
+      //   sm: '640px',
+      //   xm: '500px',
+      // },
       fontFamily: {
         primary: 'var(--font-jetbrainsMono)',
       },

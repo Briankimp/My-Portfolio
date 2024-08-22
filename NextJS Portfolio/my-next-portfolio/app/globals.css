@@ -6,6 +6,10 @@
   body {
     @apply font-primary bg-primary text-white ;
   }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+
 }
 @layer utilities {
   .underline-offset-4 {
@@ -14,3 +18,4 @@
     text-underline-offset: 7px; /*Adjust this value for spacing */
   }
 }
+
