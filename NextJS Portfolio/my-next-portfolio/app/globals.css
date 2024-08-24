@@ -6,9 +6,9 @@
   body {
     @apply font-primary bg-primary text-white ;
   }
-  .h1 {
-    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
-  }
+  /* .h1 {
+    @apply text-[48px] xl:text-[80px] leading-6 font-semibold;
+  } */
 
 }
 @layer utilities {

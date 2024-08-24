@@ -62,7 +62,7 @@ const MobileNav = () => {
               </Link>
             );
           })}
-          <Button className=" mt-4 rounded-full bg-accent hover:bg-accent-hover hover:text-primary">
+          <Button className=" mt-4 rounded-full bg-accent p-3  hover:bg-accent-hover hover:text-primary">
             Hire Me
           </Button>
         </nav>
