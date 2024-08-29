@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex flex-row  gap-5">
             <Link href="/resume">
               <Button className="border items-center rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
-                <h1 className="font-semibol">Download CV</h1>
+                <h1 className="font-semibold">Download CV</h1>
                 <svg
                   className="ml-2 text-2xl"
                   width="18"
