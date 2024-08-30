@@ -17,7 +17,7 @@ export default function Home() {
           <div className="text-left">
             <h1 className="">Software Developer</h1>
             <h1 className="text-5xl leading-normal ">
-              Hello I'm <br />
+              Hello I am <br />
               <span className="text-accent">Brian Munene</span>
             </h1>
 
