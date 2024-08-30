@@ -16,10 +16,12 @@ export default function Home() {
         <div className="mx-auto">
           <div className="text-left">
             <h1 className="">Software Developer</h1>
-            <h1 className="text-5xl leading-normal ">
-              Hello I&apos;m <br />
+            {/* eslint-disable react/no-unescaped-entities */}
+            <h1 className="text-5xl leading-normal">
+              Hello I'm <br />
               <span className="text-accent">Brian Munene</span>
             </h1>
+            {/* eslint-enable react/no-unescaped-entities */}
 
             <p className="max-w-[500px] mb-9 flex  text-white/80">
               I excel at crafting elegant websites and I'm proficient in various
@@ -51,29 +53,29 @@ export default function Home() {
             </Link>
 
             {/* <div className=""> */}
-              <Link href="/github">
-                <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
-                  <IoLogoGithub className="text-xl" />
-                </Button>
-              </Link>
+            <Link href="/github">
+              <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
+                <IoLogoGithub className="text-xl" />
+              </Button>
+            </Link>
 
-              <Link href="/linkedin">
-                <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
-                  <FaLinkedinIn className="text-xl" />
-                </Button>
-              </Link>
+            <Link href="/linkedin">
+              <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
+                <FaLinkedinIn className="text-xl" />
+              </Button>
+            </Link>
 
-              <Link href="/twitter">
-                <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
-                  <FaTwitter className="text-xl" />
-                </Button>
-              </Link>
+            <Link href="/twitter">
+              <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
+                <FaTwitter className="text-xl" />
+              </Button>
+            </Link>
 
-              <Link href="/whatsapp">
-                <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
-                  <FaWhatsapp className="text-xl" />
-                </Button>
-              </Link>
+            <Link href="/whatsapp">
+              <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
+                <FaWhatsapp className="text-xl" />
+              </Button>
+            </Link>
             {/* </div> */}
           </div>
         </div>
