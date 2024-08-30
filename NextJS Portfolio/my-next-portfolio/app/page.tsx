@@ -17,7 +17,7 @@ export default function Home() {
           <div className="text-left">
             <h1 className="">Software Developer</h1>
             <h1 className="text-5xl leading-normal ">
-              Hello I am <br />
+              Hello I&apos;m <br />
               <span className="text-accent">Brian Munene</span>
             </h1>
 
@@ -50,7 +50,7 @@ export default function Home() {
               </Button>
             </Link>
 
-            <div>
+            {/* <div className=""> */}
               <Link href="/github">
                 <Button className="border rounded-full p-3 text-accent border-accent hover:bg-accent-hover hover:text-primary">
                   <IoLogoGithub className="text-xl" />
@@ -74,7 +74,7 @@ export default function Home() {
                   <FaWhatsapp className="text-xl" />
                 </Button>
               </Link>
-            </div>
+            {/* </div> */}
           </div>
         </div>
 
