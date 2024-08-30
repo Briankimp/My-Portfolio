@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import { Button } from "./ui/button";
 import Nav from "./Nav";
 import React from "react";

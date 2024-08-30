@@ -43,30 +43,13 @@ const Resume: React.FC = () => {
             </div>
           );
         })}
-        {/* <div className=" grid  ">
-            <Button>Experince</Button>
-            <Button>Education</Button>
-            <Button>Skills</Button>
-            <Button>About Me</Button>
-          </div> */}
       </div>
       <div className=" ">
         <h1>My Experience</h1>
         <p>Lorem, quia sint ut ratione voluptates? Voluptatum.</p>
-        {/* {...experience.map((experience, index) => {
-            return (
-              <div key={index} className="brian">
-                <div className="grid grid-cols-2 grid-rows-2 bg-accent border border-red-600 m-2 p-3">
-                  <h1> {experience.year}</h1>
-                  <div>{experience.position}</div>
-                  <div>{experience.company}</div>
-                </div>
-              </div>
-            );
-          })} */}
-        <EXperience />
+        <EXperience />  
       </div>
-    </div>
+      </div>
   );
 };
 
