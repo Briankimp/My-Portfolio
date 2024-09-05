@@ -18,13 +18,13 @@ export default function Home() {
             <h1 className="">Software Developer</h1>
             {/* eslint-disable react/no-unescaped-entities */}
             <h1 className="text-5xl leading-normal">
-              Hello I'm <br />
+              {/* Hello I'm <br /> */}
               <span className="text-accent">Brian Munene</span>
             </h1>
             {/* eslint-enable react/no-unescaped-entities */}
 
             <p className="max-w-[500px] mb-9 flex  text-white/80">
-              I excel at crafting elegant websites and I'm proficient in various
+              I excel at crafting elegant websites and I am proficient in various
               programming languages. I have a good profile and I love learning
               new things along the way.
             </p>
